@@ -1,2 +1,1 @@
-# android_vendor_xiaomi# 123
-# vendor
+# android_vendor_xiaomi
