@@ -26,17 +26,17 @@ PRODUCT_COPY_FILES += \
     vendor/cmdc/taco/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
     vendor/cmdc/taco/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
     vendor/cmdc/taco/proprietary/vendor/etc/camera/msm8953_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8953_camera.xml \
-    vendor/cmdc/taco/proprietary/etc/camera/ov16880_chromatix.xml:system/etc/camera/ov16880_chromatix.xml \
+    vendor/cmdc/taco/proprietary/vendor/etc/camera/ov16880_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov16880_chromatix.xml \
     vendor/cmdc/taco/proprietary/vendor/etc/camera/ofilm_s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ofilm_s5k3l8_f3l8yam_chromatix.xml \
     vendor/cmdc/taco/proprietary/vendor/etc/camera/ov5670_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5670_chromatix.xml \
     vendor/cmdc/taco/proprietary/vendor/etc/camera/ov5670_f5670bq_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5670_f5670bq_chromatix.xml \
-    vendor/cmdc/taco/proprietary/etc/camera/ov8856_chromatix.xml:system/etc/camera/ov8856_chromatix.xml \
+    vendor/cmdc/taco/proprietary/vendor/etc/camera/ov8856_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov8856_chromatix.xml \
     vendor/cmdc/taco/proprietary/vendor/etc/camera/qtech_ov5670_f5670bq_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/qtech_ov5670_f5670bq_chromatix.xml \
     vendor/cmdc/taco/proprietary/vendor/etc/camera/qtech_s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/qtech_s5k3l8_f3l8yam_chromatix.xml \
     vendor/cmdc/taco/proprietary/vendor/etc/camera/s5k3l8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_chromatix.xml \
     vendor/cmdc/taco/proprietary/vendor/etc/camera/s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
     vendor/cmdc/taco/proprietary/vendor/etc/camera/s5k3l8_mono_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_mono_chromatix.xml \
-    vendor/cmdc/taco/proprietary/etc/camera/s5k3p3_f3l8yam_chromatix.xml:system/etc/camera/s5k3p3_f3l8yam_chromatix.xml \
+    vendor/cmdc/taco/proprietary/vendor/etc/camera/s5k3p3_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3_f3l8yam_chromatix.xml \
     vendor/cmdc/taco/proprietary/vendor/etc/camera/s5k4h8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h8_chromatix.xml \
     vendor/cmdc/taco/proprietary/vendor/etc/camera/s5k5e8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k5e8_chromatix.xml \
     vendor/cmdc/taco/proprietary/vendor/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml \
@@ -94,6 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/cmdc/taco/proprietary/vendor/lib/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371.so \
     vendor/cmdc/taco/proprietary/vendor/lib/libactuator_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64244gwz.so \
     vendor/cmdc/taco/proprietary/vendor/lib/libactuator_bu64291gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64291gwz.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libactuator_bu64297gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64297gwz.so \
     vendor/cmdc/taco/proprietary/vendor/lib/libactuator_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64297.so \
     vendor/cmdc/taco/proprietary/vendor/lib/libactuator_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714.so \
     vendor/cmdc/taco/proprietary/vendor/lib/libactuator_dw9716.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9716.so \
@@ -376,8 +377,8 @@ PRODUCT_COPY_FILES += \
     vendor/cmdc/taco/proprietary/vendor/etc/qdcm_calib_data_r63350_1080p_video_Tianma.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_r63350_1080p_video_Tianma.xml \
     vendor/cmdc/taco/proprietary/vendor/bin/gx_fpd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpd \
     vendor/cmdc/taco/proprietary/vendor/lib/libcom_fingerprints_service.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom_fingerprints_service.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.default.so \
-    vendor/cmdc/taco/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.fpc.so \
+    vendor/cmdc/taco/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
     vendor/cmdc/taco/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
     vendor/cmdc/taco/proprietary/vendor/lib64/hw/gxfingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gxfingerprint.default.so \
     vendor/cmdc/taco/proprietary/vendor/lib64/libcom_fingerprints_service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom_fingerprints_service.so \
@@ -388,12 +389,12 @@ PRODUCT_COPY_FILES += \
 
 # blobs from other devices
 PRODUCT_COPY_FILES += \
-    vendor/cmdc/taco/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_s5k3l8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l8.so \
     vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
     vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera2_dcrf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_dcrf.so \
     vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
     vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_imglib_modules.so \
     vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_is.so \
     vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera2_mct.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct.so \
@@ -459,8 +460,6 @@ PRODUCT_COPY_FILES += \
     vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
     vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_isp_template.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_template.so \
     vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_isp_wb40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_wb40.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
-    vendor/cmdc/taco/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/cmdc/taco/proprietary/vendor/firmware/venus.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b00 \
     vendor/cmdc/taco/proprietary/vendor/firmware/venus.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b01 \
     vendor/cmdc/taco/proprietary/vendor/firmware/venus.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b02 \
@@ -470,129 +469,129 @@ PRODUCT_COPY_FILES += \
 
 # blobs from taco
 PRODUCT_COPY_FILES += \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_common.so:system/vendor/lib/libchromatix_ov16880_common.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov16880_cpp_hfr_120.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov16880_cpp_hfr_60.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov16880_cpp_hfr_90.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_cpp_liveshot.so:system/vendor/lib/libchromatix_ov16880_cpp_liveshot.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_cpp_preview.so:system/vendor/lib/libchromatix_ov16880_cpp_preview.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_cpp_snapshot.so:system/vendor/lib/libchromatix_ov16880_cpp_snapshot.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_cpp_video.so:system/vendor/lib/libchromatix_ov16880_cpp_video.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_default_preview_3a.so:system/vendor/lib/libchromatix_ov16880_default_preview_3a.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_default_video_3a.so:system/vendor/lib/libchromatix_ov16880_default_video_3a.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_default_video.so:system/vendor/lib/libchromatix_ov16880_default_video.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_hfr_120_3a.so:system/vendor/lib/libchromatix_ov16880_hfr_120_3a.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_hfr_120.so:system/vendor/lib/libchromatix_ov16880_hfr_120.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_hfr_60_3a.so:system/vendor/lib/libchromatix_ov16880_hfr_60_3a.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_hfr_60.so:system/vendor/lib/libchromatix_ov16880_hfr_60.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_hfr_90_3a.so:system/vendor/lib/libchromatix_ov16880_hfr_90_3a.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_hfr_90.so:system/vendor/lib/libchromatix_ov16880_hfr_90.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_liveshot.so:system/vendor/lib/libchromatix_ov16880_liveshot.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_postproc.so:system/vendor/lib/libchromatix_ov16880_postproc.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_preview.so:system/vendor/lib/libchromatix_ov16880_preview.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_snapshot.so:system/vendor/lib/libchromatix_ov16880_snapshot.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_zsl_preview_3a.so:system/vendor/lib/libchromatix_ov16880_zsl_preview_3a.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_zsl_video_3a.so:system/vendor/lib/libchromatix_ov16880_zsl_video_3a.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_common.so:system/vendor/lib/libchromatix_ov8856_common.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov8856_cpp_ds_chromatix.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov8856_cpp_hfr_120.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov8856_cpp_hfr_60.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov8856_cpp_hfr_90.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_liveshot.so:system/vendor/lib/libchromatix_ov8856_cpp_liveshot.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_preview.so:system/vendor/lib/libchromatix_ov8856_cpp_preview.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_snapshot.so:system/vendor/lib/libchromatix_ov8856_cpp_snapshot.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8856_cpp_us_chromatix.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_video_full.so:system/vendor/lib/libchromatix_ov8856_cpp_video_full.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_video.so:system/vendor/lib/libchromatix_ov8856_cpp_video.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_default_preview_dw9714.so:system/vendor/lib/libchromatix_ov8856_default_preview_dw9714.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_default_video_dw9714.so:system/vendor/lib/libchromatix_ov8856_default_video_dw9714.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_default_video.so:system/vendor/lib/libchromatix_ov8856_default_video.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_hfr_120_dw9714.so:system/vendor/lib/libchromatix_ov8856_hfr_120_dw9714.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_hfr_120.so:system/vendor/lib/libchromatix_ov8856_hfr_120.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_hfr_60_dw9714.so:system/vendor/lib/libchromatix_ov8856_hfr_60_dw9714.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_hfr_60.so:system/vendor/lib/libchromatix_ov8856_hfr_60.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_hfr_90_dw9714.so:system/vendor/lib/libchromatix_ov8856_hfr_90_dw9714.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_hfr_90.so:system/vendor/lib/libchromatix_ov8856_hfr_90.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_postproc.so:system/vendor/lib/libchromatix_ov8856_postproc.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_preview.so:system/vendor/lib/libchromatix_ov8856_preview.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_snapshot.so:system/vendor/lib/libchromatix_ov8856_snapshot.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_video_full.so:system/vendor/lib/libchromatix_ov8856_video_full.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_zsl_preview.so:system/vendor/lib/libchromatix_ov8856_zsl_preview.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_zsl_video.so:system/vendor/lib/libchromatix_ov8856_zsl_video.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3l8_zsl_video_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_zsl_video_ak7345.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_common.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_common.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_hfr_120.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_hfr_60.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_hfr_90.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_liveshot.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_preview.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_snapshot.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_video.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_video.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_default_preview_dw9763.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_default_preview_dw9763.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_default_video_dw9763.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_default_video_dw9763.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_default_video.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_default_video.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_120_dw9763.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_120_dw9763.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_120.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_120.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_60_dw9763.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_60_dw9763.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_60.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_60.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_90_dw9763.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_90_dw9763.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_90.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_90.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_liveshot.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_liveshot.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_postproc.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_postproc.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_preview.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_preview.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_snapshot.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_snapshot.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_zsl_preview_dw9763.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_zsl_video_dw9763.so:system/vendor/lib/libchromatix_s5k3p3_f3l8yam_zsl_video_dw9763.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_common.so:system/vendor/lib/libchromatix_s5k4h8_common.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k4h8_cpp_hfr_60.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k4h8_cpp_hfr_90.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_preview.so:system/vendor/lib/libchromatix_s5k4h8_cpp_preview.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_video.so:system/vendor/lib/libchromatix_s5k4h8_cpp_video.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_default_preview_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_default_preview_dw9763.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_default_video.so:system/vendor/lib/libchromatix_s5k4h8_default_video.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_default_video_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_default_video_dw9763.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120.so:system/vendor/lib/libchromatix_s5k4h8_hfr_120.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_hfr_120_dw9763.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_60.so:system/vendor/lib/libchromatix_s5k4h8_hfr_60.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_60_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_hfr_60_dw9763.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_90.so:system/vendor/lib/libchromatix_s5k4h8_hfr_90.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_90_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_hfr_90_dw9763.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_liveshot.so:system/vendor/lib/libchromatix_s5k4h8_liveshot.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_postproc.so:system/vendor/lib/libchromatix_s5k4h8_postproc.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_preview.so:system/vendor/lib/libchromatix_s5k4h8_preview.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_snapshot.so:system/vendor/lib/libchromatix_s5k4h8_snapshot.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_zsl_preview_dw9763.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_video_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_zsl_video_dw9763.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_ov16880_eeprom.so:system/vendor/lib/libmmcamera_ov16880_eeprom.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_ov16880.so:system/vendor/lib/libmmcamera_ov16880.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_ov8856_eeprom.so:system/vendor/lib/libmmcamera_ov8856_eeprom.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_ov8856.so:system/vendor/lib/libmmcamera_ov8856.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_s5k3p3.so:system/vendor/lib/libmmcamera_s5k3p3.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_s5k3p3_eeprom.so:system/vendor/lib/libmmcamera_s5k3p3_eeprom.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_s5k4h8_eeprom.so:system/vendor/lib/libmmcamera_s5k4h8_eeprom.so \
-    vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_s5k4h8.so:system/vendor/lib/libmmcamera_s5k4h8.so \
-    vendor/cmdc/taco/proprietary/etc/firmware/fpcta.b00:system/etc/firmware/fpcta.b00 \
-    vendor/cmdc/taco/proprietary/etc/firmware/fpcta.b01:system/etc/firmware/fpcta.b01 \
-    vendor/cmdc/taco/proprietary/etc/firmware/fpcta.b02:system/etc/firmware/fpcta.b02 \
-    vendor/cmdc/taco/proprietary/etc/firmware/fpcta.b03:system/etc/firmware/fpcta.b03 \
-    vendor/cmdc/taco/proprietary/etc/firmware/fpcta.b04:system/etc/firmware/fpcta.b04 \
-    vendor/cmdc/taco/proprietary/etc/firmware/fpcta.b05:system/etc/firmware/fpcta.b05 \
-    vendor/cmdc/taco/proprietary/etc/firmware/fpcta.b06:system/etc/firmware/fpcta.b06 \
-    vendor/cmdc/taco/proprietary/etc/firmware/fpcta.mdt:system/etc/firmware/fpcta.mdt \
-    vendor/cmdc/taco/proprietary/etc/firmware/goodixfp.b00:system/etc/firmware/goodixfp.b00 \
-    vendor/cmdc/taco/proprietary/etc/firmware/goodixfp.b01:system/etc/firmware/goodixfp.b01 \
-    vendor/cmdc/taco/proprietary/etc/firmware/goodixfp.b02:system/etc/firmware/goodixfp.b02 \
-    vendor/cmdc/taco/proprietary/etc/firmware/goodixfp.b03:system/etc/firmware/goodixfp.b03 \
-    vendor/cmdc/taco/proprietary/etc/firmware/goodixfp.b04:system/etc/firmware/goodixfp.b04 \
-    vendor/cmdc/taco/proprietary/etc/firmware/goodixfp.b05:system/etc/firmware/goodixfp.b05 \
-    vendor/cmdc/taco/proprietary/etc/firmware/goodixfp.b06:system/etc/firmware/goodixfp.b06 \
-    vendor/cmdc/taco/proprietary/etc/firmware/goodixfp.mdt:system/etc/firmware/goodixfp.mdt \
-    vendor/cmdc/taco/proprietary/lib64/libtfa9895.so:system/lib64/libtfa9895.so \
-    vendor/cmdc/taco/proprietary/lib/libtfa9895.so:system/lib/libtfa9895.so \
-    vendor/cmdc/taco/proprietary/media/tfa98xx.cnt:system/media/tfa98xx.cnt \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_common.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_cpp_hfr_120.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_cpp_hfr_60.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_cpp_hfr_90.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_cpp_liveshot.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_cpp_preview.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_cpp_snapshot.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_cpp_video.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_default_preview_3a.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_default_video_3a.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_default_video.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_hfr_120_3a.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_hfr_120.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_hfr_60_3a.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_hfr_60.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_hfr_90_3a.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_hfr_90.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_liveshot.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_postproc.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_preview.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_snapshot.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_zsl_preview_3a.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov16880_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_zsl_video_3a.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_common.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_ds_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_ds_chromatix.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_hfr_120.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_hfr_60.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_hfr_90.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_liveshot.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_preview.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_snapshot.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_us_chromatix.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_us_chromatix.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_video_full.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_cpp_video.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_default_preview_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_default_preview_dw9714.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_default_video_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_default_video_dw9714.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_default_video.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_hfr_120_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_hfr_120_dw9714.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_hfr_120.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_hfr_60_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_hfr_60_dw9714.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_hfr_60.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_hfr_90_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_hfr_90_dw9714.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_hfr_90.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_postproc.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_preview.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_snapshot.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_video_full.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_zsl_preview.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_ov8856_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8856_zsl_video.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3l8_zsl_video_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_zsl_video_ak7345.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_common.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_cpp_hfr_120.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_cpp_hfr_60.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_cpp_hfr_90.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_cpp_liveshot.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_cpp_preview.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_cpp_snapshot.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_cpp_video.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_default_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_default_preview_dw9763.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_default_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_default_video_dw9763.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_default_video.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_120_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_hfr_120_dw9763.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_hfr_120.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_60_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_hfr_60_dw9763.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_hfr_60.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_90_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_hfr_90_dw9763.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_hfr_90.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_liveshot.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_postproc.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_preview.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_snapshot.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_zsl_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_zsl_preview_dw9763.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k3p3_f3l8yam_zsl_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_f3l8yam_zsl_video_dw9763.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_common.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_hfr_120.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_hfr_60.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_hfr_90.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_liveshot.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_preview.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_snapshot.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_video.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_default_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_default_preview_dw9763.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_default_video.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_default_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_default_video_dw9763.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_120.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_120_dw9763.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_60.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_60_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_60_dw9763.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_90.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_90_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_90_dw9763.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_liveshot.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_postproc.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_preview.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_snapshot.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_zsl_preview_dw9763.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_zsl_video_dw9763.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_ov16880_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov16880_eeprom.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_ov16880.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov16880.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_ov8856_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8856_eeprom.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8856.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_s5k3p3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_s5k3p3_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3_eeprom.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_s5k4h8_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_eeprom.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libmmcamera_s5k4h8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8.so \
+    vendor/cmdc/taco/proprietary/vendor/etc/firmware/fpcta.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fpcta.b00 \
+    vendor/cmdc/taco/proprietary/vendor/etc/firmware/fpcta.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fpcta.b01 \
+    vendor/cmdc/taco/proprietary/vendor/etc/firmware/fpcta.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fpcta.b02 \
+    vendor/cmdc/taco/proprietary/vendor/etc/firmware/fpcta.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fpcta.b03 \
+    vendor/cmdc/taco/proprietary/vendor/etc/firmware/fpcta.b04:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fpcta.b04 \
+    vendor/cmdc/taco/proprietary/vendor/etc/firmware/fpcta.b05:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fpcta.b05 \
+    vendor/cmdc/taco/proprietary/vendor/etc/firmware/fpcta.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fpcta.b06 \
+    vendor/cmdc/taco/proprietary/vendor/etc/firmware/fpcta.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/fpcta.mdt \
+    vendor/cmdc/taco/proprietary/vendor/etc/firmware/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b00 \
+    vendor/cmdc/taco/proprietary/vendor/etc/firmware/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b01 \
+    vendor/cmdc/taco/proprietary/vendor/etc/firmware/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b02 \
+    vendor/cmdc/taco/proprietary/vendor/etc/firmware/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b03 \
+    vendor/cmdc/taco/proprietary/vendor/etc/firmware/goodixfp.b04:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b04 \
+    vendor/cmdc/taco/proprietary/vendor/etc/firmware/goodixfp.b05:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b05 \
+    vendor/cmdc/taco/proprietary/vendor/etc/firmware/goodixfp.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b06 \
+    vendor/cmdc/taco/proprietary/vendor/etc/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.mdt \
+    vendor/cmdc/taco/proprietary/vendor/lib64/libtfa9895.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtfa9895.so \
+    vendor/cmdc/taco/proprietary/vendor/lib/libtfa9895.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtfa9895.so \
+    vendor/cmdc/taco/proprietary/vendor/media/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/media/tfa98xx.cnt \
 
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \

@@ -97,7 +97,6 @@ special_mode_mask values:
       <ISPPreview>ov8856_snapshot</ISPPreview>
       <ISPSnapshot>ov8856_snapshot</ISPSnapshot>
       <ISPVideo>ov8856_video_full</ISPVideo>
-      <CPPPreview>ov8856_cpp_snapshot</CPPPreview>
       <CPPVideo>ov8856_cpp_video_full</CPPVideo>
       <A3Preview>ov8856_zsl_preview</A3Preview>
       <A3Video>ov8856_zsl_video</A3Video>
